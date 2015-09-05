@@ -1,0 +1,25 @@
+.list {
+	width: calc(50%);
+	float: left;
+}
+
+.available {
+	border-right: 1px solid #EEE;
+}
+
+.taken tr:not(:first-child) {
+	display: none;
+}
+
+.taken td {
+	color: #AAA;
+}
+
+h1 {
+	text-align: center;
+}
+
+tr:nth-child(24n+9),
+tr:nth-child(24n+17) {
+	background-color: #F0FFF0;
+}
